@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+# scratch files the test suite writes
+tests/.tmp_*

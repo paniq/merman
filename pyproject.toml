@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "merman"
+version = "0.1.0"
+description = "Run mermaid flowcharts as programs: Python expressions, shell commands and LLM prompts."
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+merman = "merman:main"
+
+[tool.setuptools]
+py-modules = ["merman"]
